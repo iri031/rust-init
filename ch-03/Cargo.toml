@@ -4,3 +4,19 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+
+[[bin]]
+name = "temperature"
+path = "src/01temperature.rs"
+
+[[bin]]
+name = "overflow"
+path = "src/main.rs"
+
+[[bin]]
+name = "fibonacci"
+path = "src/02fibonacci.rs"
+
+[[bin]]
+name = "carol"
+path = "src/03christmas.rs"
